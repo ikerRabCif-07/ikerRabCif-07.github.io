@@ -8,13 +8,19 @@ body {
 
     font-family: "Instrument Serif", serif;
     font-weight: 400;
-    font-style: normal;
+    font-style: normal; 
 }
 
 h1 {
     color: #ffde96;
     font-size: 36px;
     margin-bottom: 20px;
+}
+
+h2 {
+    color: #ffde96;
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 header{
@@ -27,9 +33,23 @@ header{
 
 main {
     padding: 20px;
+
+    text-align: center;
 }
 
-section > div {
+main > #explicacion {
+    background-color: #db6062;
+    border-style: solid;
+    border-color: #c93638;
+    border-radius: 10px;
+
+    color: #f6ffea;
+
+    margin-top: 30px;
+    padding: 20px;
+}
+
+section > .div {
     background-color: #f3deb0;
     border-style: solid;
     border-color: #c93638;
@@ -41,14 +61,50 @@ section > div {
 
 
     height: 200px;
+    width: 450px;
 }
 
-img {
+section > #div_poster {
+    background-color: #f3deb0;
+    border-style: solid;
+    border-color: #c93638;
+    border-radius: 10px;
+
+    margin-top: 30px;
+    padding: 20px;
+    position: relative;
+
+
+    height: 300px;
+    width: 450px;
+}
+
+.img {
     width: 200px;
     height: 200px;
-    margin: 0;
-    padding: 0;
+
+    margin-bottom: 20px;
 
     position: absolute;
-    left: 20%;
+    left: 30%;
+}
+
+#bannerWeb {
+    width: 400px;
+    height: 200px;
+
+    margin-bottom: 20px;
+
+    position: absolute;
+    left: 9%;
+}
+
+#poster {
+    width: 200px;
+    height: 300px;
+
+    margin-bottom: 20px;
+
+    position: absolute;
+    left: 30%;
 }
