@@ -9,6 +9,8 @@ body {
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal; 
+
+
 }
 
 h1 {
@@ -111,5 +113,33 @@ img {
     &:active {
         transform: translateY(-5px);
         border-color: #ff0004;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    main {
+        padding: 15px;
+    }
+
+    main > #explicacion {
+        margin-left: 0;
+        padding: 15px;
+    }
+
+    /* Las imágenes se adaptan al ancho del móvil */
+    #img1, #img2, #img3, #img4 {
+        width: 100%;
+        height: auto;
+        max-width: 320px; /* evita que se hagan gigantes en móviles grandes */
     }
 }
